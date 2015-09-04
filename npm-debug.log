@@ -1,0 +1,46 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'angular@1.4.4' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose install initial load of /Users/daniel.cairns/Sites/end/package.json
+5 verbose readDependencies loading dependencies from /Users/daniel.cairns/Sites/end/package.json
+6 silly cache add args [ 'angular@1.4.4', null ]
+7 verbose cache add spec angular@1.4.4
+8 silly cache add parsed spec { raw: 'angular@1.4.4',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'angular',
+8 silly cache add   rawSpec: '1.4.4',
+8 silly cache add   spec: '1.4.4',
+8 silly cache add   type: 'version' }
+9 silly addNamed angular@1.4.4
+10 verbose addNamed "1.4.4" is a plain semver version for angular
+11 silly mapToRegistry name angular
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/angular
+15 verbose addNameVersion registry:https://registry.npmjs.org/angular not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/angular
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 1:20:53 PM
+19 verbose request id 133a169caccf42c5
+20 http request GET https://registry.npmjs.org/angular
+21 verbose stack URIError: URI malformed
+21 verbose stack     at decodeURIComponent (native)
+21 verbose stack     at Url.parse (url.js:215:19)
+21 verbose stack     at Object.urlParse [as parse] (url.js:104:5)
+21 verbose stack     at Request.setupTunnel (/usr/local/lib/node_modules/npm/node_modules/request/request.js:289:22)
+21 verbose stack     at Request.init (/usr/local/lib/node_modules/npm/node_modules/request/request.js:452:10)
+21 verbose stack     at new Request (/usr/local/lib/node_modules/npm/node_modules/request/request.js:272:8)
+21 verbose stack     at request (/usr/local/lib/node_modules/npm/node_modules/request/index.js:56:10)
+21 verbose stack     at CachingRegistryClient.makeRequest (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:147:13)
+21 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:65:17
+21 verbose stack     at RetryOperation._fn (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/attempt.js:18:5)
+22 verbose cwd /Users/daniel.cairns/Sites/end
+23 error Darwin 14.3.0
+24 error argv "node" "/usr/local/bin/npm" "install" "angular@1.4.4"
+25 error node v0.12.4
+26 error npm  v2.10.1
+27 error URI malformed
+28 error If you need help, you may report this error at:
+28 error     <https://github.com/npm/npm/issues>
+29 verbose exit [ 1, true ]
